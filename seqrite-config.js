@@ -3,7 +3,7 @@ let userLang = (navigator.language || (navigator).userLanguage || 'en');
 console.log("Browser Language Code: ", userLang);
 window.klaroConfig = {
   "consentManagerId": "69b9324d9e728433f0f956f5",
-  "uuid": "072bed0e-e05b-4a55-b5ae-83330b82b551",
+  "uuid": "d8a0b64c-0da9-4c87-bac5-8cf872c59356",
   "domain": "http://localhost/cmapi",
   "version": 1,
   "elementID": "SEQRITE",
@@ -17,7 +17,58 @@ window.klaroConfig = {
   "hideDeclineAll": false,
   "hideLearnMore": false,
   "disablePoweredBy": false,
-  "translations": {},
+  "translations": {
+    "en": {
+      "acceptAll": "Accept all",
+      "accept": "Accept",
+      "decline": "Reject All",
+      "acceptSelected": "Accept Selected",
+      "ok": "Accept All",
+      "consentNotice": {
+        "description": "<p><strong>We respect your privacy</strong></p><p>We store cookies to enable essential site functionality, as well as marketing, personalization and analytics. By clicking “Accept All”, you consent to our use of cookies. You can change your settings at any time. <a href=\"https://www.google.com/\" title=\"https://www.google.com/\" target=\"_blank\"><u>Cookie Policy.</u></a></p>",
+        "learnMore": "Customize",
+        "changeDescription": " "
+      },
+      "save": "Accept",
+      "consentModal": {
+        "title": "Customize Consent Preferences",
+        "description": "We use cookies to help you navigate between pages efficiently, storing your preferences, and generally improving your experience of a website.  However, we acknowledge  your right to privacy and hence you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. Please note that blocking certain types of cookies might affect your experience of the site. ",
+        "buttons": {
+          "save": "Accept",
+          "acceptAll": "Accept all",
+          "decline": "Reject All"
+        }
+      },
+      "poweredBy": "Powered by Seqrite",
+      "purposes": {
+        "others": {
+          "description": "<p>NA</p>"
+        },
+        "functional": {
+          "description": "<p>NA</p>"
+        },
+        "marketing": {
+          "description": "<p>NA</p>"
+        },
+        "analytics": {
+          "description": "<p>NA</p>"
+        }
+      },
+      "service": {
+        "disableAll": {
+          "description": "Reject All",
+          "title": "Reject All"
+        },
+        "optOut": {
+          "description": "Reject All",
+          "title": "Reject All"
+        }
+      },
+      "purposeItem": {
+        "services": "services"
+      }
+    }
+  },
   "styling": {
     "theme": [
       "light",
